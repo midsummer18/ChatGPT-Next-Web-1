@@ -558,7 +558,7 @@ export function Settings() {
         </List>
 
         <List>
-         /* {showAccessCode ? (
+         {/* showAccessCode ? (
             <ListItem
               title={Locale.Settings.AccessCode.Title}
               subTitle={Locale.Settings.AccessCode.SubTitle}
@@ -590,7 +590,7 @@ export function Settings() {
                 }}
               />
             </ListItem>
-          ) : null}*/
+          ) : null*/}
 
           {!accessStore.hideBalanceQuery ? (
             <ListItem

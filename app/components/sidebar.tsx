@@ -4,7 +4,7 @@ import styles from "./home.module.scss";
 
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
-import MyIcon from "../icons/myicon.svg";
+import GithubIcon from "../icons/myicon.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
@@ -174,7 +174,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-action"]}>
            <a href="https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1102855033&from=items_share&msource=items_share" target="_blank">
-             <IconButton icon={<MyIcon />} shadow />
+             <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
         </div>
